@@ -11,6 +11,7 @@
 {
 "id": "shared-source-of-truth",
 "name": "Shared Source of Truth",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "artifact-storage-versioning",
 "multi-format-support",
@@ -20,6 +21,7 @@
 {
 "id": "definition-discovery",
 "name": "Definition Discovery",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "search-discovery",
 "metadata-search",
@@ -29,6 +31,7 @@
 {
 "id": "safe-reuse",
 "name": "Safe Reuse Across Teams",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "groups",
 "branches",
@@ -44,6 +47,7 @@
 {
 "id": "artifact-storage-versioning",
 "name": "Artifact Storage & Versioning",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "content-deduplication",
 "storage-backend"
@@ -52,6 +56,7 @@
 {
 "id": "multi-format-support",
 "name": "Multi-Format Support",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": [
 "artifact-types"
 ]
@@ -59,6 +64,7 @@
 {
 "id": "search-discovery",
 "name": "Search & Discovery",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "metadata-search",
 "search-indexing"
@@ -67,6 +73,7 @@
 {
 "id": "import-export",
 "name": "Import / Export",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "zip-archive",
 "admin-access"
@@ -81,6 +88,7 @@
 {
 "id": "web-ui",
 "name": "Web UI",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "registry-api"
 ]
@@ -88,6 +96,7 @@
 {
 "id": "client-sdks",
 "name": "Multi-Language Client SDKs",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "registry-api"
 ]
@@ -95,6 +104,7 @@
 {
 "id": "groups",
 "name": "Groups",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "registry-api"
 ]
@@ -102,6 +112,7 @@
 {
 "id": "branches",
 "name": "Branches",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "artifact-storage-versioning"
 ]
@@ -109,6 +120,7 @@
 {
 "id": "references",
 "name": "Artifact References",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "artifact-storage-versioning"
 ]
@@ -122,6 +134,7 @@
 {
 "id": "registry-api",
 "name": "Registry REST API",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backend"
 ]
@@ -129,11 +142,13 @@
 {
 "id": "artifact-types",
 "name": "Schema and API Formats",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": []
 },
 {
 "id": "metadata-search",
 "name": "Metadata Search",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backend"
 ]
@@ -141,6 +156,7 @@
 {
 "id": "search-indexing",
 "name": "Elasticsearch Content Indexing",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "elasticsearch"
 ]
@@ -148,11 +164,13 @@
 {
 "id": "content-deduplication",
 "name": "SHA-256 Content Deduplication",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": []
 },
 {
 "id": "zip-archive",
 "name": "Registry ZIP Archive",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backend"
 ]
@@ -160,6 +178,7 @@
 {
 "id": "admin-access",
 "name": "Admin Access",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": []
 }
 ]
@@ -171,11 +190,13 @@
 {
 "id": "storage-backend",
 "name": "Storage Backend",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 },
 {
 "id": "elasticsearch",
 "name": "Elasticsearch",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 }
 ]
@@ -194,6 +215,7 @@
 {
 "id": "safe-change",
 "name": "Safe Schema Change",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "compatibility-rules",
 "validity-rules",
@@ -203,6 +225,7 @@
 {
 "id": "consumer-protection",
 "name": "Consumer Protection",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "compatibility-rules",
 "reference-checks",
@@ -212,6 +235,7 @@
 {
 "id": "governed-evolution",
 "name": "Governed Evolution",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "rules-engine",
 "contract-lifecycle",
@@ -227,6 +251,7 @@
 {
 "id": "rules-engine",
 "name": "Rules Engine",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "global-rules",
 "group-rules",
@@ -236,6 +261,7 @@
 {
 "id": "compatibility-rules",
 "name": "Compatibility Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "rules-engine",
 "artifact-storage-versioning"
@@ -244,6 +270,7 @@
 {
 "id": "validity-rules",
 "name": "Validity Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "rules-engine",
 "multi-format-support"
@@ -252,6 +279,7 @@
 {
 "id": "reference-checks",
 "name": "Reference Checks",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "rules-engine",
 "artifact-references"
@@ -260,6 +288,7 @@
 {
 "id": "version-lifecycle-state",
 "name": "Version Lifecycle State",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "artifact-storage-versioning"
 ]
@@ -273,6 +302,7 @@
 {
 "id": "data-contracts",
 "name": "Data Contracts",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "odcs-format",
 "contract-metadata",
@@ -282,6 +312,7 @@
 {
 "id": "contract-lifecycle",
 "name": "Contract Lifecycle",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "data-contracts",
 "version-lifecycle-state"
@@ -290,6 +321,7 @@
 {
 "id": "contract-rules",
 "name": "Contract Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "rules-engine",
 "cel-jsonata"
@@ -298,6 +330,7 @@
 {
 "id": "contract-metadata",
 "name": "Ownership and SLA Metadata",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "artifact-labels"
 ]
@@ -311,6 +344,7 @@
 {
 "id": "artifact-storage-versioning",
 "name": "Artifact Storage & Versioning",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "storage-backend"
 ]
@@ -318,6 +352,7 @@
 {
 "id": "multi-format-support",
 "name": "Multi-Format Support",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": [
 "artifact-types"
 ]
@@ -325,6 +360,7 @@
 {
 "id": "artifact-references",
 "name": "Artifact References",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "artifact-storage-versioning"
 ]
@@ -332,6 +368,7 @@
 {
 "id": "artifact-labels",
 "name": "Artifact Labels",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "storage-backend"
 ]
@@ -339,6 +376,7 @@
 {
 "id": "audit-trail",
 "name": "Audit Trail",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "change-events"
 ]
@@ -352,31 +390,37 @@
 {
 "id": "global-rules",
 "name": "Global Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": []
 },
 {
 "id": "group-rules",
 "name": "Group Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": []
 },
 {
 "id": "artifact-rules",
 "name": "Artifact Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": []
 },
 {
 "id": "odcs-format",
 "name": "ODCS Format",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": []
 },
 {
 "id": "cel-jsonata",
 "name": "CEL and JSONata",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": []
 },
 {
 "id": "change-events",
 "name": "Change Events",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "storage-backend"
 ]
@@ -384,6 +428,7 @@
 {
 "id": "storage-backend",
 "name": "Storage Backend",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 }
 ]
@@ -395,6 +440,7 @@
 {
 "id": "custom-artifact-types",
 "name": "Custom Artifact Types",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": [
 "artifact-types-config"
 ]
@@ -402,11 +448,13 @@
 {
 "id": "artifact-types",
 "name": "Built-in Artifact Types",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": []
 },
 {
 "id": "artifact-types-config",
 "name": "Artifact Types Config File",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": []
 }
 ]
@@ -425,6 +473,7 @@
 {
 "id": "safe-runtime-exchange",
 "name": "Safe Runtime Data Exchange",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": [
 "kafka-serdes",
 "schema-resolution",
@@ -434,6 +483,7 @@
 {
 "id": "drop-in-migration",
 "name": "Drop-in Migration Path",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/confluent-compatibility",
 "deps": [
 "confluent-compatibility",
 "registry-api"
@@ -442,6 +492,7 @@
 {
 "id": "developer-integration",
 "name": "Developer Integration",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/runtime-data-exchange",
 "deps": [
 "client-sdks",
 "maven-plugin",
@@ -457,6 +508,7 @@
 {
 "id": "kafka-serdes",
 "name": "Kafka SerDes Integration",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": [
 "schema-resolution",
 "kafka-clients",
@@ -466,6 +518,7 @@
 {
 "id": "confluent-compatibility",
 "name": "Confluent Schema Registry Compatibility",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/confluent-compatibility",
 "deps": [
 "compatibility-api",
 "schema-resolution"
@@ -474,6 +527,7 @@
 {
 "id": "runtime-contract-enforcement",
 "name": "Runtime Contract Enforcement",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": [
 "contract-rules",
 "kafka-serdes"
@@ -482,6 +536,7 @@
 {
 "id": "schema-resolution",
 "name": "Schema Resolution",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/schema-resolution",
 "deps": [
 "global-id",
 "content-id",
@@ -497,6 +552,7 @@
 {
 "id": "client-sdks",
 "name": "Multi-Language Client SDKs",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "registry-api"
 ]
@@ -504,6 +560,7 @@
 {
 "id": "maven-plugin",
 "name": "Maven Plugin",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/runtime-data-exchange",
 "deps": [
 "registry-api"
 ]
@@ -511,6 +568,7 @@
 {
 "id": "compatibility-api",
 "name": "Compatibility APIs",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/confluent-compatibility",
 "deps": [
 "registry-api"
 ]
@@ -518,6 +576,7 @@
 {
 "id": "registry-api",
 "name": "Registry REST API",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "authn-authz",
 "storage-backend"
@@ -532,6 +591,7 @@
 {
 "id": "contract-rules",
 "name": "Contract Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "data-contracts",
 "cel-jsonata"
@@ -540,6 +600,7 @@
 {
 "id": "data-contracts",
 "name": "Data Contracts",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "artifact-storage-versioning"
 ]
@@ -547,6 +608,7 @@
 {
 "id": "artifact-storage-versioning",
 "name": "Artifact Storage & Versioning",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "storage-backend"
 ]
@@ -554,11 +616,13 @@
 {
 "id": "global-id",
 "name": "Global ID",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": []
 },
 {
 "id": "content-id",
 "name": "Content ID",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": []
 }
 ]
@@ -570,6 +634,7 @@
 {
 "id": "kafka-clients",
 "name": "Java Kafka Clients",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": [
 "kafka-cluster"
 ]
@@ -577,11 +642,13 @@
 {
 "id": "kafka-cluster",
 "name": "Kafka Cluster",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": []
 },
 {
 "id": "authn-authz",
 "name": "Authentication & Authorization",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "identity-provider"
 ]
@@ -589,16 +656,19 @@
 {
 "id": "identity-provider",
 "name": "Identity Provider",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 },
 {
 "id": "cel-jsonata",
 "name": "CEL and JSONata",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": []
 },
 {
 "id": "storage-backend",
 "name": "Storage Backend",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 }
 ]
@@ -617,6 +687,7 @@
 {
 "id": "change-confidence",
 "name": "Change Confidence",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "usage-telemetry",
 "consumer-heatmap",
@@ -626,6 +697,7 @@
 {
 "id": "safe-retirement",
 "name": "Safe Version Retirement",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "active-stale-dead",
 "version-lifecycle-state",
@@ -635,6 +707,7 @@
 {
 "id": "automation-triggers",
 "name": "Automation Triggers",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "change-events",
 "audit-log"
@@ -649,6 +722,7 @@
 {
 "id": "usage-telemetry",
 "name": "Usage Telemetry",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "usage-events",
 "client-identification",
@@ -658,6 +732,7 @@
 {
 "id": "active-stale-dead",
 "name": "Active / Stale / Dead Classification",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "usage-telemetry",
 "usage-thresholds"
@@ -666,6 +741,7 @@
 {
 "id": "consumer-heatmap",
 "name": "Consumer Version Heatmap",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "usage-telemetry"
 ]
@@ -673,6 +749,7 @@
 {
 "id": "deprecation-readiness",
 "name": "Deprecation Readiness Reports",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "usage-telemetry",
 "version-lifecycle-state"
@@ -681,6 +758,7 @@
 {
 "id": "version-lifecycle-state",
 "name": "Version Lifecycle State",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "artifact-storage-versioning"
 ]
@@ -694,6 +772,7 @@
 {
 "id": "change-events",
 "name": "Change Events",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "outbox-pattern",
 "registry-mutations"
@@ -702,6 +781,7 @@
 {
 "id": "audit-log",
 "name": "Audit Log",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "change-events"
 ]
@@ -709,6 +789,7 @@
 {
 "id": "outbox-pattern",
 "name": "Outbox Pattern",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "sql-storage",
 "debezium"
@@ -717,6 +798,7 @@
 {
 "id": "kafkasql-events",
 "name": "KafkaSQL Event Publishing",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kafkasql-storage"
 ]
@@ -730,6 +812,7 @@
 {
 "id": "usage-events",
 "name": "Usage Events",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "schema-fetch-tracking"
 ]
@@ -737,11 +820,13 @@
 {
 "id": "client-identification",
 "name": "Client Identification Headers",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": []
 },
 {
 "id": "schema-fetch-tracking",
 "name": "Schema Fetch Tracking",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "registry-api"
 ]
@@ -749,11 +834,13 @@
 {
 "id": "usage-thresholds",
 "name": "Usage Thresholds",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": []
 },
 {
 "id": "registry-mutations",
 "name": "Registry Mutations",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "registry-api"
 ]
@@ -767,6 +854,7 @@
 {
 "id": "artifact-storage-versioning",
 "name": "Artifact Storage & Versioning",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "storage-backend"
 ]
@@ -774,6 +862,7 @@
 {
 "id": "registry-api",
 "name": "Registry REST API",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backend"
 ]
@@ -781,6 +870,7 @@
 {
 "id": "sql-storage",
 "name": "SQL Storage",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": [
 "database"
 ]
@@ -788,6 +878,7 @@
 {
 "id": "kafkasql-storage",
 "name": "KafkaSQL Storage",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": [
 "kafka-cluster"
 ]
@@ -795,11 +886,13 @@
 {
 "id": "storage-backend",
 "name": "Storage Backend",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 },
 {
 "id": "debezium",
 "name": "Debezium CDC",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": [
 "database"
 ]
@@ -807,6 +900,7 @@
 {
 "id": "database",
 "name": "Database",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 }
 ]
@@ -818,6 +912,7 @@
 {
 "id": "kafka-cluster",
 "name": "Kafka Cluster",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": []
 }
 ]
@@ -836,6 +931,7 @@
 {
 "id": "trusted-data-products",
 "name": "Trusted Data Products",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "data-contracts",
 "quality-rules",
@@ -845,6 +941,7 @@
 {
 "id": "compliance-awareness",
 "name": "Compliance Awareness",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "field-tags",
 "classification-tags",
@@ -854,6 +951,7 @@
 {
 "id": "production-readiness",
 "name": "Production Readiness",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "contract-lifecycle",
 "promotion-stages",
@@ -869,6 +967,7 @@
 {
 "id": "data-contracts",
 "name": "Data Contracts",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "odcs-format",
 "artifact-storage-versioning"
@@ -877,6 +976,7 @@
 {
 "id": "ownership-metadata",
 "name": "Ownership Metadata",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "contract-metadata"
 ]
@@ -884,6 +984,7 @@
 {
 "id": "quality-rules",
 "name": "Quality Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "contract-rules",
 "cel-jsonata"
@@ -892,6 +993,7 @@
 {
 "id": "field-tags",
 "name": "Field-Level Tags",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "schema-field-extraction",
 "version-labels"
@@ -900,6 +1002,7 @@
 {
 "id": "multi-contract-support",
 "name": "Multi-Contract Support",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "data-contracts",
 "artifact-storage-versioning"
@@ -914,6 +1017,7 @@
 {
 "id": "contract-lifecycle",
 "name": "Contract Lifecycle",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "contract-status",
 "promotion-stages"
@@ -922,6 +1026,7 @@
 {
 "id": "promotion-stages",
 "name": "Promotion Stages",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "contract-status"
 ]
@@ -929,6 +1034,7 @@
 {
 "id": "quality-scoring",
 "name": "Quality Scoring",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "quality-rules"
 ]
@@ -936,6 +1042,7 @@
 {
 "id": "contract-search",
 "name": "Contract Search",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "contract-metadata",
 "search-discovery"
@@ -944,6 +1051,7 @@
 {
 "id": "classification-tags",
 "name": "PII and Classification Tags",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "field-tags"
 ]
@@ -957,6 +1065,7 @@
 {
 "id": "contract-rules",
 "name": "Contract Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "rules-engine"
 ]
@@ -964,6 +1073,7 @@
 {
 "id": "contract-metadata",
 "name": "Contract Metadata",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "artifact-labels"
 ]
@@ -971,6 +1081,7 @@
 {
 "id": "version-labels",
 "name": "Version Labels",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "artifact-storage-versioning"
 ]
@@ -978,6 +1089,7 @@
 {
 "id": "schema-field-extraction",
 "name": "Schema Field Extraction",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "multi-format-support"
 ]
@@ -985,6 +1097,7 @@
 {
 "id": "contract-status",
 "name": "Contract Status",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": []
 }
 ]
@@ -996,6 +1109,7 @@
 {
 "id": "artifact-storage-versioning",
 "name": "Artifact Storage & Versioning",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "storage-backend"
 ]
@@ -1003,6 +1117,7 @@
 {
 "id": "multi-format-support",
 "name": "Multi-Format Support",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": [
 "artifact-types"
 ]
@@ -1010,6 +1125,7 @@
 {
 "id": "rules-engine",
 "name": "Rules Engine",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "storage-backend"
 ]
@@ -1017,6 +1133,7 @@
 {
 "id": "artifact-labels",
 "name": "Artifact Labels",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "storage-backend"
 ]
@@ -1024,6 +1141,7 @@
 {
 "id": "search-discovery",
 "name": "Search & Discovery",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backend"
 ]
@@ -1031,11 +1149,13 @@
 {
 "id": "odcs-format",
 "name": "ODCS Format",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": []
 },
 {
 "id": "cel-jsonata",
 "name": "CEL and JSONata",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": []
 }
 ]
@@ -1047,11 +1167,13 @@
 {
 "id": "artifact-types",
 "name": "Schema Formats",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": []
 },
 {
 "id": "storage-backend",
 "name": "Storage Backend",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 }
 ]
@@ -1070,6 +1192,7 @@
 {
 "id": "platform-fit",
 "name": "Platform Fit",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kubernetes-operator",
 "storage-backends",
@@ -1079,6 +1202,7 @@
 {
 "id": "operational-control",
 "name": "Operational Control",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "opentelemetry-observability",
 "change-events",
@@ -1088,6 +1212,7 @@
 {
 "id": "team-isolation",
 "name": "Team Isolation",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "multitenancy",
 "authn-authz",
@@ -1103,6 +1228,7 @@
 {
 "id": "kubernetes-operator",
 "name": "Kubernetes Operator",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/deploy-registry-operator",
 "deps": [
 "kubernetes-cluster",
 "registry-custom-resource"
@@ -1111,6 +1237,7 @@
 {
 "id": "multitenancy",
 "name": "Multitenancy",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kubernetes-operator",
 "tenant-custom-resources"
@@ -1119,6 +1246,7 @@
 {
 "id": "gitops-storage",
 "name": "GitOps Storage",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "git-repository",
 "sidecar-sync"
@@ -1127,6 +1255,7 @@
 {
 "id": "kubernetesops-storage",
 "name": "KubernetesOps Storage",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "configmaps",
 "kubernetes-api"
@@ -1135,6 +1264,7 @@
 {
 "id": "cli",
 "name": "CLI",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "registry-api"
 ]
@@ -1148,6 +1278,7 @@
 {
 "id": "authn-authz",
 "name": "Authentication & Authorization",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "identity-provider",
 "rbac-obac"
@@ -1156,6 +1287,7 @@
 {
 "id": "opentelemetry-observability",
 "name": "OpenTelemetry Observability",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "otel-collector"
 ]
@@ -1163,6 +1295,7 @@
 {
 "id": "change-events",
 "name": "Change Events",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "outbox-pattern",
 "kafkasql-events"
@@ -1171,6 +1304,7 @@
 {
 "id": "search-indexing",
 "name": "Elasticsearch Search Indexing",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "elasticsearch"
 ]
@@ -1178,6 +1312,7 @@
 {
 "id": "network-isolation",
 "name": "Network Isolation",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kubernetes-network-policy"
 ]
@@ -1191,6 +1326,7 @@
 {
 "id": "storage-backends",
 "name": "Multiple Storage Backends",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": [
 "sql-storage",
 "kafkasql-storage",
@@ -1201,6 +1337,7 @@
 {
 "id": "sql-storage",
 "name": "SQL Storage",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": [
 "database"
 ]
@@ -1208,6 +1345,7 @@
 {
 "id": "kafkasql-storage",
 "name": "KafkaSQL Storage",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": [
 "kafka-cluster"
 ]
@@ -1215,11 +1353,13 @@
 {
 "id": "in-memory-storage",
 "name": "In-Memory Storage",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 },
 {
 "id": "registry-api",
 "name": "Registry REST API",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backends"
 ]
@@ -1233,6 +1373,7 @@
 {
 "id": "registry-custom-resource",
 "name": "Registry Custom Resource",
+"external": "https://pwright.github.io/apicurio-okf/generated/resources/apicurio-registry3",
 "deps": [
 "kubernetes-api"
 ]
@@ -1240,6 +1381,7 @@
 {
 "id": "tenant-custom-resources",
 "name": "Tenant Custom Resources",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "registry-custom-resource"
 ]
@@ -1247,6 +1389,7 @@
 {
 "id": "outbox-pattern",
 "name": "Outbox Pattern",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "database"
 ]
@@ -1254,6 +1397,7 @@
 {
 "id": "kafkasql-events",
 "name": "KafkaSQL Events Topic",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kafka-cluster"
 ]
@@ -1261,11 +1405,13 @@
 {
 "id": "rbac-obac",
 "name": "RBAC and OBAC",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 },
 {
 "id": "sidecar-sync",
 "name": "Sidecar Sync",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "git-repository"
 ]
@@ -1279,11 +1425,13 @@
 {
 "id": "kubernetes-cluster",
 "name": "Kubernetes or OpenShift",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 },
 {
 "id": "kubernetes-api",
 "name": "Kubernetes API",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kubernetes-cluster"
 ]
@@ -1291,6 +1439,7 @@
 {
 "id": "kubernetes-network-policy",
 "name": "Kubernetes NetworkPolicy",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kubernetes-cluster"
 ]
@@ -1298,6 +1447,7 @@
 {
 "id": "configmaps",
 "name": "ConfigMaps",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kubernetes-api"
 ]
@@ -1305,31 +1455,37 @@
 {
 "id": "database",
 "name": "Database",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 },
 {
 "id": "kafka-cluster",
 "name": "Kafka Cluster",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": []
 },
 {
 "id": "git-repository",
 "name": "Git Repository",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 },
 {
 "id": "identity-provider",
 "name": "Identity Provider",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 },
 {
 "id": "otel-collector",
 "name": "OpenTelemetry Collector",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 },
 {
 "id": "elasticsearch",
 "name": "Elasticsearch",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 }
 ]
@@ -1348,6 +1504,7 @@
 {
 "id": "tool-native-discovery",
 "name": "Tool-Native Discovery",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/runtime-data-exchange",
 "deps": [
 "flink-catalog",
 "iceberg-rest-catalog",
@@ -1357,6 +1514,7 @@
 {
 "id": "streaming-table-alignment",
 "name": "Streaming and Table Alignment",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": [
 "kafka-serdes",
 "flink-catalog",
@@ -1366,6 +1524,7 @@
 {
 "id": "ai-ready-contracts",
 "name": "AI-Ready Contracts",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "ai-mcp-integration",
 "custom-artifact-types",
@@ -1381,6 +1540,7 @@
 {
 "id": "flink-catalog",
 "name": "Apache Flink Catalog",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/flink-catalog",
 "deps": [
 "flink-runtime",
 "schema-conversion",
@@ -1390,6 +1550,7 @@
 {
 "id": "iceberg-rest-catalog",
 "name": "Iceberg REST Catalog",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/iceberg-catalog",
 "deps": [
 "iceberg-rest-api",
 "query-engines",
@@ -1399,6 +1560,7 @@
 {
 "id": "kafka-serdes",
 "name": "Kafka SerDes Integration",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": [
 "kafka-cluster",
 "artifact-storage-versioning"
@@ -1407,6 +1569,7 @@
 {
 "id": "search-discovery",
 "name": "Search & Discovery",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "metadata-search",
 "search-indexing"
@@ -1421,6 +1584,7 @@
 {
 "id": "ai-mcp-integration",
 "name": "AI / MCP Integration",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/ai-mcp-integration",
 "deps": [
 "agent-cards",
 "prompt-templates",
@@ -1431,6 +1595,7 @@
 {
 "id": "custom-artifact-types",
 "name": "Custom Artifact Types",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": [
 "artifact-types-config"
 ]
@@ -1438,6 +1603,7 @@
 {
 "id": "data-contracts",
 "name": "Data Contracts",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "odcs-format",
 "artifact-storage-versioning"
@@ -1452,6 +1618,7 @@
 {
 "id": "artifact-storage-versioning",
 "name": "Artifact Storage & Versioning",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "storage-backend"
 ]
@@ -1459,6 +1626,7 @@
 {
 "id": "schema-conversion",
 "name": "Schema Conversion",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": [
 "multi-format-support"
 ]
@@ -1466,6 +1634,7 @@
 {
 "id": "multi-format-support",
 "name": "Multi-Format Support",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": [
 "built-in-artifact-types"
 ]
@@ -1473,6 +1642,7 @@
 {
 "id": "metadata-search",
 "name": "Metadata Search",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backend"
 ]
@@ -1480,6 +1650,7 @@
 {
 "id": "search-indexing",
 "name": "Elasticsearch Content Indexing",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "elasticsearch"
 ]
@@ -1487,6 +1658,7 @@
 {
 "id": "iceberg-rest-api",
 "name": "Iceberg REST API",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/iceberg-catalog",
 "deps": [
 "registry-api"
 ]
@@ -1494,6 +1666,7 @@
 {
 "id": "registry-api",
 "name": "Registry REST API",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backend"
 ]
@@ -1507,11 +1680,13 @@
 {
 "id": "built-in-artifact-types",
 "name": "Built-in Artifact Types",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": []
 },
 {
 "id": "agent-cards",
 "name": "Agent Cards",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/ai-mcp-integration",
 "deps": [
 "custom-artifact-types"
 ]
@@ -1519,6 +1694,7 @@
 {
 "id": "prompt-templates",
 "name": "Prompt Templates",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/ai-mcp-integration",
 "deps": [
 "custom-artifact-types"
 ]
@@ -1526,6 +1702,7 @@
 {
 "id": "model-schemas",
 "name": "Model Schemas",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/ai-mcp-integration",
 "deps": [
 "custom-artifact-types"
 ]
@@ -1533,6 +1710,7 @@
 {
 "id": "mcp-tools",
 "name": "MCP Tools",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/use-mcp-server",
 "deps": [
 "custom-artifact-types"
 ]
@@ -1540,11 +1718,13 @@
 {
 "id": "artifact-types-config",
 "name": "Artifact Types Config File",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": []
 },
 {
 "id": "odcs-format",
 "name": "ODCS Format",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": []
 }
 ]
@@ -1556,26 +1736,31 @@
 {
 "id": "flink-runtime",
 "name": "Apache Flink",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/flink-catalog",
 "deps": []
 },
 {
 "id": "query-engines",
 "name": "Query Engines",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/iceberg-catalog",
 "deps": []
 },
 {
 "id": "kafka-cluster",
 "name": "Kafka Cluster",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": []
 },
 {
 "id": "elasticsearch",
 "name": "Elasticsearch",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 },
 {
 "id": "storage-backend",
 "name": "Storage Backend",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 }
 ]

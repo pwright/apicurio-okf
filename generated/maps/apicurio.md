@@ -26,6 +26,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "shared-source-of-truth",
 "name": "Shared Source of Truth",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "artifact-storage-versioning",
 "multi-format-support",
@@ -35,6 +36,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "definition-discovery",
 "name": "Definition Discovery",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "search-discovery",
 "metadata-search",
@@ -44,6 +46,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "safe-reuse",
 "name": "Safe Reuse Across Teams",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "groups",
 "branches",
@@ -59,6 +62,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "artifact-storage-versioning",
 "name": "Artifact Storage & Versioning",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "content-deduplication",
 "storage-backend"
@@ -67,6 +71,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "multi-format-support",
 "name": "Multi-Format Support",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": [
 "artifact-types"
 ]
@@ -74,6 +79,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "search-discovery",
 "name": "Search & Discovery",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "metadata-search",
 "search-indexing"
@@ -82,6 +88,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "import-export",
 "name": "Import / Export",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "zip-archive",
 "admin-access"
@@ -96,6 +103,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "web-ui",
 "name": "Web UI",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "registry-api"
 ]
@@ -103,6 +111,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "client-sdks",
 "name": "Multi-Language Client SDKs",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "registry-api"
 ]
@@ -110,6 +119,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "groups",
 "name": "Groups",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "registry-api"
 ]
@@ -117,6 +127,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "branches",
 "name": "Branches",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "artifact-storage-versioning"
 ]
@@ -124,6 +135,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "references",
 "name": "Artifact References",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "artifact-storage-versioning"
 ]
@@ -137,6 +149,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "registry-api",
 "name": "Registry REST API",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backend"
 ]
@@ -144,11 +157,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "artifact-types",
 "name": "Schema and API Formats",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": []
 },
 {
 "id": "metadata-search",
 "name": "Metadata Search",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backend"
 ]
@@ -156,6 +171,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "search-indexing",
 "name": "Elasticsearch Content Indexing",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "elasticsearch"
 ]
@@ -163,11 +179,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "content-deduplication",
 "name": "SHA-256 Content Deduplication",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": []
 },
 {
 "id": "zip-archive",
 "name": "Registry ZIP Archive",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backend"
 ]
@@ -175,6 +193,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "admin-access",
 "name": "Admin Access",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": []
 }
 ]
@@ -186,11 +205,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "storage-backend",
 "name": "Storage Backend",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 },
 {
 "id": "elasticsearch",
 "name": "Elasticsearch",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 }
 ]
@@ -209,6 +230,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "safe-change",
 "name": "Safe Schema Change",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "compatibility-rules",
 "validity-rules",
@@ -218,6 +240,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "consumer-protection",
 "name": "Consumer Protection",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "compatibility-rules",
 "reference-checks",
@@ -227,6 +250,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "governed-evolution",
 "name": "Governed Evolution",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "rules-engine",
 "contract-lifecycle",
@@ -242,6 +266,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "rules-engine",
 "name": "Rules Engine",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "global-rules",
 "group-rules",
@@ -251,6 +276,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "compatibility-rules",
 "name": "Compatibility Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "rules-engine",
 "artifact-storage-versioning"
@@ -259,6 +285,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "validity-rules",
 "name": "Validity Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "rules-engine",
 "multi-format-support"
@@ -267,6 +294,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "reference-checks",
 "name": "Reference Checks",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "rules-engine",
 "artifact-references"
@@ -275,6 +303,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "version-lifecycle-state",
 "name": "Version Lifecycle State",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "artifact-storage-versioning"
 ]
@@ -288,6 +317,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "data-contracts",
 "name": "Data Contracts",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "odcs-format",
 "contract-metadata",
@@ -297,6 +327,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "contract-lifecycle",
 "name": "Contract Lifecycle",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "data-contracts",
 "version-lifecycle-state"
@@ -305,6 +336,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "contract-rules",
 "name": "Contract Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "rules-engine",
 "cel-jsonata"
@@ -313,6 +345,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "contract-metadata",
 "name": "Ownership and SLA Metadata",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "artifact-labels"
 ]
@@ -326,6 +359,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "artifact-storage-versioning",
 "name": "Artifact Storage & Versioning",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "storage-backend"
 ]
@@ -333,6 +367,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "multi-format-support",
 "name": "Multi-Format Support",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": [
 "artifact-types"
 ]
@@ -340,6 +375,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "artifact-references",
 "name": "Artifact References",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "artifact-storage-versioning"
 ]
@@ -347,6 +383,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "artifact-labels",
 "name": "Artifact Labels",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "storage-backend"
 ]
@@ -354,6 +391,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "audit-trail",
 "name": "Audit Trail",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "change-events"
 ]
@@ -367,31 +405,37 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "global-rules",
 "name": "Global Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": []
 },
 {
 "id": "group-rules",
 "name": "Group Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": []
 },
 {
 "id": "artifact-rules",
 "name": "Artifact Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": []
 },
 {
 "id": "odcs-format",
 "name": "ODCS Format",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": []
 },
 {
 "id": "cel-jsonata",
 "name": "CEL and JSONata",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": []
 },
 {
 "id": "change-events",
 "name": "Change Events",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "storage-backend"
 ]
@@ -399,6 +443,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "storage-backend",
 "name": "Storage Backend",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 }
 ]
@@ -410,6 +455,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "custom-artifact-types",
 "name": "Custom Artifact Types",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": [
 "artifact-types-config"
 ]
@@ -417,11 +463,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "artifact-types",
 "name": "Built-in Artifact Types",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": []
 },
 {
 "id": "artifact-types-config",
 "name": "Artifact Types Config File",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": []
 }
 ]
@@ -440,6 +488,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "safe-runtime-exchange",
 "name": "Safe Runtime Data Exchange",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": [
 "kafka-serdes",
 "schema-resolution",
@@ -449,6 +498,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "drop-in-migration",
 "name": "Drop-in Migration Path",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/confluent-compatibility",
 "deps": [
 "confluent-compatibility",
 "registry-api"
@@ -457,6 +507,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "developer-integration",
 "name": "Developer Integration",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/runtime-data-exchange",
 "deps": [
 "client-sdks",
 "maven-plugin",
@@ -472,6 +523,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "kafka-serdes",
 "name": "Kafka SerDes Integration",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": [
 "schema-resolution",
 "kafka-clients",
@@ -481,6 +533,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "confluent-compatibility",
 "name": "Confluent Schema Registry Compatibility",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/confluent-compatibility",
 "deps": [
 "compatibility-api",
 "schema-resolution"
@@ -489,6 +542,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "runtime-contract-enforcement",
 "name": "Runtime Contract Enforcement",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": [
 "contract-rules",
 "kafka-serdes"
@@ -497,6 +551,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "schema-resolution",
 "name": "Schema Resolution",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/schema-resolution",
 "deps": [
 "global-id",
 "content-id",
@@ -512,6 +567,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "client-sdks",
 "name": "Multi-Language Client SDKs",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "registry-api"
 ]
@@ -519,6 +575,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "maven-plugin",
 "name": "Maven Plugin",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/runtime-data-exchange",
 "deps": [
 "registry-api"
 ]
@@ -526,6 +583,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "compatibility-api",
 "name": "Compatibility APIs",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/confluent-compatibility",
 "deps": [
 "registry-api"
 ]
@@ -533,6 +591,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "registry-api",
 "name": "Registry REST API",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "authn-authz",
 "storage-backend"
@@ -547,6 +606,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "contract-rules",
 "name": "Contract Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "data-contracts",
 "cel-jsonata"
@@ -555,6 +615,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "data-contracts",
 "name": "Data Contracts",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "artifact-storage-versioning"
 ]
@@ -562,6 +623,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "artifact-storage-versioning",
 "name": "Artifact Storage & Versioning",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "storage-backend"
 ]
@@ -569,11 +631,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "global-id",
 "name": "Global ID",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": []
 },
 {
 "id": "content-id",
 "name": "Content ID",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": []
 }
 ]
@@ -585,6 +649,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "kafka-clients",
 "name": "Java Kafka Clients",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": [
 "kafka-cluster"
 ]
@@ -592,11 +657,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "kafka-cluster",
 "name": "Kafka Cluster",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": []
 },
 {
 "id": "authn-authz",
 "name": "Authentication & Authorization",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "identity-provider"
 ]
@@ -604,16 +671,19 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "identity-provider",
 "name": "Identity Provider",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 },
 {
 "id": "cel-jsonata",
 "name": "CEL and JSONata",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": []
 },
 {
 "id": "storage-backend",
 "name": "Storage Backend",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 }
 ]
@@ -632,6 +702,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "change-confidence",
 "name": "Change Confidence",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "usage-telemetry",
 "consumer-heatmap",
@@ -641,6 +712,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "safe-retirement",
 "name": "Safe Version Retirement",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "active-stale-dead",
 "version-lifecycle-state",
@@ -650,6 +722,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "automation-triggers",
 "name": "Automation Triggers",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "change-events",
 "audit-log"
@@ -664,6 +737,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "usage-telemetry",
 "name": "Usage Telemetry",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "usage-events",
 "client-identification",
@@ -673,6 +747,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "active-stale-dead",
 "name": "Active / Stale / Dead Classification",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "usage-telemetry",
 "usage-thresholds"
@@ -681,6 +756,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "consumer-heatmap",
 "name": "Consumer Version Heatmap",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "usage-telemetry"
 ]
@@ -688,6 +764,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "deprecation-readiness",
 "name": "Deprecation Readiness Reports",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "usage-telemetry",
 "version-lifecycle-state"
@@ -696,6 +773,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "version-lifecycle-state",
 "name": "Version Lifecycle State",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "artifact-storage-versioning"
 ]
@@ -709,6 +787,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "change-events",
 "name": "Change Events",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "outbox-pattern",
 "registry-mutations"
@@ -717,6 +796,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "audit-log",
 "name": "Audit Log",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "change-events"
 ]
@@ -724,6 +804,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "outbox-pattern",
 "name": "Outbox Pattern",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "sql-storage",
 "debezium"
@@ -732,6 +813,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "kafkasql-events",
 "name": "KafkaSQL Event Publishing",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kafkasql-storage"
 ]
@@ -745,6 +827,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "usage-events",
 "name": "Usage Events",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "schema-fetch-tracking"
 ]
@@ -752,11 +835,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "client-identification",
 "name": "Client Identification Headers",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": []
 },
 {
 "id": "schema-fetch-tracking",
 "name": "Schema Fetch Tracking",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": [
 "registry-api"
 ]
@@ -764,11 +849,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "usage-thresholds",
 "name": "Usage Thresholds",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/usage-telemetry",
 "deps": []
 },
 {
 "id": "registry-mutations",
 "name": "Registry Mutations",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "registry-api"
 ]
@@ -782,6 +869,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "artifact-storage-versioning",
 "name": "Artifact Storage & Versioning",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "storage-backend"
 ]
@@ -789,6 +877,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "registry-api",
 "name": "Registry REST API",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backend"
 ]
@@ -796,6 +885,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "sql-storage",
 "name": "SQL Storage",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": [
 "database"
 ]
@@ -803,6 +893,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "kafkasql-storage",
 "name": "KafkaSQL Storage",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": [
 "kafka-cluster"
 ]
@@ -810,11 +901,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "storage-backend",
 "name": "Storage Backend",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 },
 {
 "id": "debezium",
 "name": "Debezium CDC",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": [
 "database"
 ]
@@ -822,6 +915,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "database",
 "name": "Database",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 }
 ]
@@ -833,6 +927,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "kafka-cluster",
 "name": "Kafka Cluster",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": []
 }
 ]
@@ -851,6 +946,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "trusted-data-products",
 "name": "Trusted Data Products",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "data-contracts",
 "quality-rules",
@@ -860,6 +956,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "compliance-awareness",
 "name": "Compliance Awareness",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "field-tags",
 "classification-tags",
@@ -869,6 +966,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "production-readiness",
 "name": "Production Readiness",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "contract-lifecycle",
 "promotion-stages",
@@ -884,6 +982,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "data-contracts",
 "name": "Data Contracts",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "odcs-format",
 "artifact-storage-versioning"
@@ -892,6 +991,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "ownership-metadata",
 "name": "Ownership Metadata",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "contract-metadata"
 ]
@@ -899,6 +999,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "quality-rules",
 "name": "Quality Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "contract-rules",
 "cel-jsonata"
@@ -907,6 +1008,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "field-tags",
 "name": "Field-Level Tags",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "schema-field-extraction",
 "version-labels"
@@ -915,6 +1017,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "multi-contract-support",
 "name": "Multi-Contract Support",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "data-contracts",
 "artifact-storage-versioning"
@@ -929,6 +1032,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "contract-lifecycle",
 "name": "Contract Lifecycle",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "contract-status",
 "promotion-stages"
@@ -937,6 +1041,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "promotion-stages",
 "name": "Promotion Stages",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "contract-status"
 ]
@@ -944,6 +1049,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "quality-scoring",
 "name": "Quality Scoring",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "quality-rules"
 ]
@@ -951,6 +1057,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "contract-search",
 "name": "Contract Search",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "contract-metadata",
 "search-discovery"
@@ -959,6 +1066,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "classification-tags",
 "name": "PII and Classification Tags",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "field-tags"
 ]
@@ -972,6 +1080,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "contract-rules",
 "name": "Contract Rules",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "rules-engine"
 ]
@@ -979,6 +1088,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "contract-metadata",
 "name": "Contract Metadata",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "artifact-labels"
 ]
@@ -986,6 +1096,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "version-labels",
 "name": "Version Labels",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "artifact-storage-versioning"
 ]
@@ -993,6 +1104,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "schema-field-extraction",
 "name": "Schema Field Extraction",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "multi-format-support"
 ]
@@ -1000,6 +1112,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "contract-status",
 "name": "Contract Status",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": []
 }
 ]
@@ -1011,6 +1124,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "artifact-storage-versioning",
 "name": "Artifact Storage & Versioning",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "storage-backend"
 ]
@@ -1018,6 +1132,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "multi-format-support",
 "name": "Multi-Format Support",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": [
 "artifact-types"
 ]
@@ -1025,6 +1140,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "rules-engine",
 "name": "Rules Engine",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": [
 "storage-backend"
 ]
@@ -1032,6 +1148,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "artifact-labels",
 "name": "Artifact Labels",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "storage-backend"
 ]
@@ -1039,6 +1156,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "search-discovery",
 "name": "Search & Discovery",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backend"
 ]
@@ -1046,11 +1164,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "odcs-format",
 "name": "ODCS Format",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": []
 },
 {
 "id": "cel-jsonata",
 "name": "CEL and JSONata",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-rules",
 "deps": []
 }
 ]
@@ -1062,11 +1182,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "artifact-types",
 "name": "Schema Formats",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": []
 },
 {
 "id": "storage-backend",
 "name": "Storage Backend",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 }
 ]
@@ -1085,6 +1207,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "platform-fit",
 "name": "Platform Fit",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kubernetes-operator",
 "storage-backends",
@@ -1094,6 +1217,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "operational-control",
 "name": "Operational Control",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "opentelemetry-observability",
 "change-events",
@@ -1103,6 +1227,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "team-isolation",
 "name": "Team Isolation",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "multitenancy",
 "authn-authz",
@@ -1118,6 +1243,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "kubernetes-operator",
 "name": "Kubernetes Operator",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/deploy-registry-operator",
 "deps": [
 "kubernetes-cluster",
 "registry-custom-resource"
@@ -1126,6 +1252,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "multitenancy",
 "name": "Multitenancy",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kubernetes-operator",
 "tenant-custom-resources"
@@ -1134,6 +1261,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "gitops-storage",
 "name": "GitOps Storage",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "git-repository",
 "sidecar-sync"
@@ -1142,6 +1270,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "kubernetesops-storage",
 "name": "KubernetesOps Storage",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "configmaps",
 "kubernetes-api"
@@ -1150,6 +1279,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "cli",
 "name": "CLI",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "registry-api"
 ]
@@ -1163,6 +1293,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "authn-authz",
 "name": "Authentication & Authorization",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "identity-provider",
 "rbac-obac"
@@ -1171,6 +1302,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "opentelemetry-observability",
 "name": "OpenTelemetry Observability",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "otel-collector"
 ]
@@ -1178,6 +1310,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "change-events",
 "name": "Change Events",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "outbox-pattern",
 "kafkasql-events"
@@ -1186,6 +1319,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "search-indexing",
 "name": "Elasticsearch Search Indexing",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "elasticsearch"
 ]
@@ -1193,6 +1327,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "network-isolation",
 "name": "Network Isolation",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kubernetes-network-policy"
 ]
@@ -1206,6 +1341,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "storage-backends",
 "name": "Multiple Storage Backends",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": [
 "sql-storage",
 "kafkasql-storage",
@@ -1216,6 +1352,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "sql-storage",
 "name": "SQL Storage",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": [
 "database"
 ]
@@ -1223,6 +1360,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "kafkasql-storage",
 "name": "KafkaSQL Storage",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": [
 "kafka-cluster"
 ]
@@ -1230,11 +1368,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "in-memory-storage",
 "name": "In-Memory Storage",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 },
 {
 "id": "registry-api",
 "name": "Registry REST API",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backends"
 ]
@@ -1248,6 +1388,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "registry-custom-resource",
 "name": "Registry Custom Resource",
+"external": "https://pwright.github.io/apicurio-okf/generated/resources/apicurio-registry3",
 "deps": [
 "kubernetes-api"
 ]
@@ -1255,6 +1396,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "tenant-custom-resources",
 "name": "Tenant Custom Resources",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "registry-custom-resource"
 ]
@@ -1262,6 +1404,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "outbox-pattern",
 "name": "Outbox Pattern",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "database"
 ]
@@ -1269,6 +1412,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "kafkasql-events",
 "name": "KafkaSQL Events Topic",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kafka-cluster"
 ]
@@ -1276,11 +1420,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "rbac-obac",
 "name": "RBAC and OBAC",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 },
 {
 "id": "sidecar-sync",
 "name": "Sidecar Sync",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "git-repository"
 ]
@@ -1294,11 +1440,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "kubernetes-cluster",
 "name": "Kubernetes or OpenShift",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 },
 {
 "id": "kubernetes-api",
 "name": "Kubernetes API",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kubernetes-cluster"
 ]
@@ -1306,6 +1454,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "kubernetes-network-policy",
 "name": "Kubernetes NetworkPolicy",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kubernetes-cluster"
 ]
@@ -1313,6 +1462,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "configmaps",
 "name": "ConfigMaps",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "kubernetes-api"
 ]
@@ -1320,31 +1470,37 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "database",
 "name": "Database",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 },
 {
 "id": "kafka-cluster",
 "name": "Kafka Cluster",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": []
 },
 {
 "id": "git-repository",
 "name": "Git Repository",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 },
 {
 "id": "identity-provider",
 "name": "Identity Provider",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 },
 {
 "id": "otel-collector",
 "name": "OpenTelemetry Collector",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 },
 {
 "id": "elasticsearch",
 "name": "Elasticsearch",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 }
 ]
@@ -1363,6 +1519,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "tool-native-discovery",
 "name": "Tool-Native Discovery",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/runtime-data-exchange",
 "deps": [
 "flink-catalog",
 "iceberg-rest-catalog",
@@ -1372,6 +1529,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "streaming-table-alignment",
 "name": "Streaming and Table Alignment",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": [
 "kafka-serdes",
 "flink-catalog",
@@ -1381,6 +1539,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "ai-ready-contracts",
 "name": "AI-Ready Contracts",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "ai-mcp-integration",
 "custom-artifact-types",
@@ -1396,6 +1555,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "flink-catalog",
 "name": "Apache Flink Catalog",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/flink-catalog",
 "deps": [
 "flink-runtime",
 "schema-conversion",
@@ -1405,6 +1565,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "iceberg-rest-catalog",
 "name": "Iceberg REST Catalog",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/iceberg-catalog",
 "deps": [
 "iceberg-rest-api",
 "query-engines",
@@ -1414,6 +1575,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "kafka-serdes",
 "name": "Kafka SerDes Integration",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": [
 "kafka-cluster",
 "artifact-storage-versioning"
@@ -1422,6 +1584,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "search-discovery",
 "name": "Search & Discovery",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "metadata-search",
 "search-indexing"
@@ -1436,6 +1599,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "ai-mcp-integration",
 "name": "AI / MCP Integration",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/ai-mcp-integration",
 "deps": [
 "agent-cards",
 "prompt-templates",
@@ -1446,6 +1610,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "custom-artifact-types",
 "name": "Custom Artifact Types",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": [
 "artifact-types-config"
 ]
@@ -1453,6 +1618,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "data-contracts",
 "name": "Data Contracts",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": [
 "odcs-format",
 "artifact-storage-versioning"
@@ -1467,6 +1633,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "artifact-storage-versioning",
 "name": "Artifact Storage & Versioning",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/registry-artifact-model",
 "deps": [
 "storage-backend"
 ]
@@ -1474,6 +1641,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "schema-conversion",
 "name": "Schema Conversion",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": [
 "multi-format-support"
 ]
@@ -1481,6 +1649,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "multi-format-support",
 "name": "Multi-Format Support",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": [
 "built-in-artifact-types"
 ]
@@ -1488,6 +1657,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "metadata-search",
 "name": "Metadata Search",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backend"
 ]
@@ -1495,6 +1665,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "search-indexing",
 "name": "Elasticsearch Content Indexing",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": [
 "elasticsearch"
 ]
@@ -1502,6 +1673,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "iceberg-rest-api",
 "name": "Iceberg REST API",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/iceberg-catalog",
 "deps": [
 "registry-api"
 ]
@@ -1509,6 +1681,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "registry-api",
 "name": "Registry REST API",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/manage-artifacts-rest-api",
 "deps": [
 "storage-backend"
 ]
@@ -1522,11 +1695,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "built-in-artifact-types",
 "name": "Built-in Artifact Types",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": []
 },
 {
 "id": "agent-cards",
 "name": "Agent Cards",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/ai-mcp-integration",
 "deps": [
 "custom-artifact-types"
 ]
@@ -1534,6 +1709,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "prompt-templates",
 "name": "Prompt Templates",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/ai-mcp-integration",
 "deps": [
 "custom-artifact-types"
 ]
@@ -1541,6 +1717,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "model-schemas",
 "name": "Model Schemas",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/ai-mcp-integration",
 "deps": [
 "custom-artifact-types"
 ]
@@ -1548,6 +1725,7 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "mcp-tools",
 "name": "MCP Tools",
+"external": "https://pwright.github.io/apicurio-okf/generated/workflows/use-mcp-server",
 "deps": [
 "custom-artifact-types"
 ]
@@ -1555,11 +1733,13 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "artifact-types-config",
 "name": "Artifact Types Config File",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/artifact-types",
 "deps": []
 },
 {
 "id": "odcs-format",
 "name": "ODCS Format",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/data-contracts",
 "deps": []
 }
 ]
@@ -1571,26 +1751,31 @@ Edit: [Blockscape](https://pwright.github.io/blockscape/?load=https://raw.github
 {
 "id": "flink-runtime",
 "name": "Apache Flink",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/flink-catalog",
 "deps": []
 },
 {
 "id": "query-engines",
 "name": "Query Engines",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/iceberg-catalog",
 "deps": []
 },
 {
 "id": "kafka-cluster",
 "name": "Kafka Cluster",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/kafka-serdes",
 "deps": []
 },
 {
 "id": "elasticsearch",
 "name": "Elasticsearch",
+"external": "https://pwright.github.io/apicurio-okf/generated/architecture/platform-fit",
 "deps": []
 },
 {
 "id": "storage-backend",
 "name": "Storage Backend",
+"external": "https://pwright.github.io/apicurio-okf/generated/concepts/storage-backends",
 "deps": []
 }
 ]
