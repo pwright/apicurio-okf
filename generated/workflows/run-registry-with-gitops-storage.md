@@ -25,6 +25,7 @@ related:
   - apicurio-concept-storage-backends
   - apicurio-workflow-deploy-registry-operator
   - apicurio-resource-apicurio-registry3
+  - apicurio-workflow-register-blockscape-custom-artifact-type
 ---
 
 # Run Registry with GitOps storage

@@ -18,6 +18,7 @@ related:
   - apicurio-concept-registry-artifact-model
   - apicurio-concept-data-contracts
   - apicurio-concept-ai-mcp-integration
+  - apicurio-concept-custom-artifact-types
 ---
 
 # Artifact types
@@ -43,3 +44,4 @@ Documented built-in types include:
 
 The docs also describe AI/ML-oriented types such as `MODEL_SCHEMA` and `PROMPT_TEMPLATE`, plus ODCS data contracts. These types expand the registry beyond classic schema storage into data product governance, AI agent metadata, and lakehouse catalog use cases.
 
+Registry can also load configured custom artifact types from an artifact type configuration file. See `apicurio-concept-custom-artifact-types` for the custom type configuration model and extension hooks.
