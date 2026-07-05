@@ -1,0 +1,28 @@
+# Upstream snapshot; refresh with scripts/sync-human-apicurio-registry.sh
+/human/
+
+# Generated local outputs
+# /generated/
+/indexes/
+/maps/*.generated.*
+/context-packs/
+
+# Temporary files
+/tmp/
+.DS_Store
+
+
+# Heavy/generated upstream snapshot internals
+/human/**/python/
+/human/**/external/
+/human/**/.github/
+
+# Quartz staged content and build outputs
+/quartz/content/*
+!/quartz/content/.gitkeep
+/quartz/public/
+/quartz/node_modules/
+/quartz/.quartz/plugins/
+
+# Quartz templates are tracked (not ignored)
+!/quartz/templates/

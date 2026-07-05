@@ -1,0 +1,8 @@
+human_repos:
+  apicurio-registry:
+    local_prefixes:
+      - human/apicurio-registry/
+      - /human/apicurio-registry/
+      - ../human/apicurio-registry/
+      - ../../human/apicurio-registry/
+    public_base_url: https://github.com/Apicurio/apicurio-registry/blob/main/
