@@ -18,6 +18,18 @@ tags:
 related:
   - apicurio-concept-artifact-types
   - apicurio-workflow-use-mcp-server
+decision:
+  registry_goal:
+    - ai-agent-registry
+  artifact_family:
+    - ai-agent-artifact
+  artifact_type:
+    - MCP_TOOL
+    - MODEL_SCHEMA
+    - PROMPT_TEMPLATE
+  consumer:
+    - sdk-client
+    - human
 ---
 
 # AI and MCP integration
@@ -36,4 +48,3 @@ The MCP server exposes operations for:
 The source also describes AI/ML artifact types, especially `PROMPT_TEMPLATE` and `MODEL_SCHEMA`, and how prompt templates can be made available through MCP.
 
 This connects the map's data-tooling-bridge theme: registry artifacts can be discovered and used by AI agents, not only by human users or Kafka clients.
-

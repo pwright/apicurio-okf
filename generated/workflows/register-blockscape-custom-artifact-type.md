@@ -26,6 +26,18 @@ related:
   - apicurio-concept-artifact-types
   - apicurio-concept-registry-rules
   - apicurio-workflow-manage-artifacts-rest-api
+decision:
+  registry_goal:
+    - custom-artifact-governance
+  artifact_family:
+    - custom
+  artifact_type:
+    - custom
+  custom_type_support:
+    - config-only
+    - webhook-validation
+  change_policy:
+    - validity-only
 ---
 
 # Register Blockscape as a custom artifact type

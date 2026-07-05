@@ -15,6 +15,18 @@ tags:
   - mcp
 related:
   - apicurio-concept-ai-mcp-integration
+decision:
+  registry_goal:
+    - ai-agent-registry
+  artifact_family:
+    - ai-agent-artifact
+  artifact_type:
+    - MCP_TOOL
+    - MODEL_SCHEMA
+    - PROMPT_TEMPLATE
+  consumer:
+    - sdk-client
+    - human
 ---
 
 # Use the Registry MCP server
@@ -29,4 +41,3 @@ The source describes two installation paths:
 For Claude Desktop, the user adds an MCP server entry that runs the Docker image or Java JAR. The Docker example passes `REGISTRY_URL` so the MCP server knows which registry instance to call.
 
 The MCP server includes a safe mode enabled by default, limiting operations that could cause unintended changes.
-

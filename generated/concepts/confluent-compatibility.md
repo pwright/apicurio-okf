@@ -18,6 +18,20 @@ related:
   - apicurio-concept-kafka-serdes
   - apicurio-concept-schema-resolution
   - apicurio-concept-data-contracts
+decision:
+  registry_goal:
+    - confluent-migration
+  artifact_family:
+    - event-schema
+  artifact_type:
+    - AVRO
+    - JSON
+    - PROTOBUF
+  consumer:
+    - confluent-client
+  api_mode:
+    - confluent-v7
+    - confluent-v8
 ---
 
 # Confluent compatibility API
@@ -35,4 +49,3 @@ The docs describe support for:
 The compatibility layer is a migration surface. It lets teams adopt Apicurio without changing every existing schema registry client immediately.
 
 Native Apicurio features, such as data contracts, may provide richer behavior than the compatibility API exposes.
-

@@ -17,6 +17,18 @@ related:
   - apicurio-resource-apicurio-registry3
   - apicurio-concept-storage-backends
   - apicurio-architecture-platform-fit
+decision:
+  deployment_environment:
+    - kubernetes
+    - openshift
+    - production-ha
+    - local-dev
+  storage:
+    - embedded-h2
+    - postgresql
+    - mysql
+    - kafkasql
+    - kubernetesops
 ---
 
 # Deploy Registry using the Operator
@@ -35,4 +47,3 @@ The source describes deployment variants for:
 - replicas, pod disruption budgets, pod templates, environment variables, and UI configuration.
 
 The production path is storage-specific. The source warns that embedded H2 is not suitable for production and directs production deployments toward PostgreSQL, MySQL, KafkaSQL, or KubernetesOps.
-

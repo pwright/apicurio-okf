@@ -16,6 +16,18 @@ tags:
 related:
   - apicurio-concept-registry-artifact-model
   - apicurio-concept-registry-rules
+decision:
+  registry_goal:
+    - ci-cd-validation
+    - runtime-validation
+    - api-contract-governance
+    - event-schema-governance
+  consumer:
+    - ci-cd
+    - sdk-client
+    - maven-build
+  api_mode:
+    - native-v3
 ---
 
 # Manage artifacts using the REST API
@@ -32,4 +44,3 @@ The source workflow covers these tasks:
 The examples create Avro schema artifacts under `/apis/registry/v3/groups/{groupId}/artifacts`, then retrieve version content through artifact and version paths.
 
 This workflow is the automation counterpart to the web UI: it lets CI/CD pipelines and application tooling publish definitions without manual console steps.
-

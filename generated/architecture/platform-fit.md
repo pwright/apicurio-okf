@@ -20,6 +20,18 @@ related:
   - apicurio-resource-apicurio-registry3
   - apicurio-concept-storage-backends
   - apicurio-workflow-deploy-registry-operator
+decision:
+  deployment_environment:
+    - docker
+    - kubernetes
+    - openshift
+    - production-ha
+  storage:
+    - embedded-h2
+    - postgresql
+    - mysql
+    - kafkasql
+    - kubernetesops
 ---
 
 # Platform fit
@@ -36,4 +48,3 @@ Source-backed platform dimensions include:
 - UI and API components that can be configured independently.
 
 In the Blockscape map, platform fit is the bridge between registry capability and platform ownership. The registry becomes a managed platform service when storage, auth, observability, tenancy, and deployment are controlled declaratively.
-

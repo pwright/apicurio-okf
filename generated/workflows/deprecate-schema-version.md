@@ -18,6 +18,14 @@ related:
   - apicurio-concept-usage-telemetry
   - apicurio-resource-usage-telemetry-api
   - apicurio-concept-registry-artifact-model
+decision:
+  registry_goal:
+    - compatibility-governance
+  consumer:
+    - runtime-client
+  lifecycle_state:
+    - deprecated
+    - disabled
 ---
 
 # Deprecate a schema version with telemetry
@@ -34,4 +42,3 @@ The source describes these decision points:
 6. Move the version through lifecycle states only when consumers are ready.
 
 The source state machine includes `ENABLED`, `DEPRECATED`, `SUNSET`, and `DISABLED`. The workflow should preserve a migration window before deletion.
-

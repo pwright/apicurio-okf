@@ -17,6 +17,18 @@ tags:
 related:
   - apicurio-resource-apicurio-registry3
   - apicurio-architecture-platform-fit
+decision:
+  storage:
+    - embedded-h2
+    - postgresql
+    - mysql
+    - kafkasql
+    - kubernetesops
+  deployment_environment:
+    - local-dev
+    - kubernetes
+    - openshift
+    - production-ha
 ---
 
 # Storage backends
@@ -32,4 +44,3 @@ Documented deployment options include:
 - KubernetesOps: read-only storage backed by Kubernetes ConfigMaps, positioned for Kubernetes-native and GitOps workflows.
 
 The map uses storage as a platform-fit foundation: storage choice determines how the registry fits database, Kafka, GitOps, and Kubernetes operating models.
-

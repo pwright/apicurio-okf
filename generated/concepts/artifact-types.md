@@ -19,6 +19,29 @@ related:
   - apicurio-concept-data-contracts
   - apicurio-concept-ai-mcp-integration
   - apicurio-concept-custom-artifact-types
+decision:
+  artifact_family:
+    - event-schema
+    - api-contract
+    - xml-contract
+    - ai-agent-artifact
+    - custom
+  artifact_type:
+    - AVRO
+    - PROTOBUF
+    - JSON
+    - KCONNECT
+    - OPENAPI
+    - ASYNCAPI
+    - GRAPHQL
+    - WSDL
+    - XML
+    - XSD
+    - THRIFT
+    - MCP_TOOL
+    - MODEL_SCHEMA
+    - PROMPT_TEMPLATE
+    - custom
 ---
 
 # Artifact types

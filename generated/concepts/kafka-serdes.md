@@ -18,6 +18,19 @@ related:
   - apicurio-concept-schema-resolution
   - apicurio-concept-confluent-compatibility
   - apicurio-concept-data-contracts
+decision:
+  registry_goal:
+    - runtime-validation
+    - event-schema-governance
+  artifact_family:
+    - event-schema
+  artifact_type:
+    - AVRO
+    - PROTOBUF
+    - JSON
+  consumer:
+    - kafka-serde
+    - runtime-client
 ---
 
 # Kafka SerDes integration
@@ -40,4 +53,3 @@ Consumer applications configure:
 The default serializer lookup strategy is `TopicIdStrategy`, which maps messages to artifacts named after the topic and key/value role. Alternative strategies support record-based and topic-record-based naming.
 
 This is the runtime-data-exchange path in the map: registry definitions become active in the message flow, not just documentation stored out of band.
-

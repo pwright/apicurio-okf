@@ -20,6 +20,20 @@ related:
   - apicurio-concept-schema-resolution
   - apicurio-concept-confluent-compatibility
   - apicurio-concept-registry-rules
+decision:
+  registry_goal:
+    - runtime-validation
+    - confluent-migration
+  artifact_family:
+    - event-schema
+  consumer:
+    - runtime-client
+    - kafka-serde
+    - confluent-client
+  api_mode:
+    - native-v3
+    - confluent-v7
+    - confluent-v8
 ---
 
 # Runtime data exchange
@@ -35,4 +49,3 @@ The runtime path is:
 5. Existing Confluent clients can use the ccompat endpoint during migration.
 
 This architecture decouples message structure from application deployments. Applications can fetch schema updates at runtime while the registry enforces validity, compatibility, and reference integrity at write time.
-

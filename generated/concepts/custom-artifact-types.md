@@ -31,6 +31,18 @@ related:
   - apicurio-concept-registry-rules
   - apicurio-workflow-manage-artifacts-rest-api
   - apicurio-workflow-register-blockscape-custom-artifact-type
+decision:
+  registry_goal:
+    - custom-artifact-governance
+  artifact_family:
+    - custom
+  artifact_type:
+    - custom
+  custom_type_support:
+    - config-only
+    - webhook-validation
+    - webhook-compatibility
+    - java-extension
 ---
 
 # Custom artifact types

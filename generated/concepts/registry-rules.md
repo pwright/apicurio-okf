@@ -18,6 +18,24 @@ related:
   - apicurio-concept-data-contracts
   - apicurio-concept-registry-artifact-model
   - apicurio-workflow-deprecate-schema-version
+decision:
+  registry_goal:
+    - compatibility-governance
+    - event-schema-governance
+    - api-contract-governance
+  change_policy:
+    - validity-only
+    - backward-compatible
+    - backward-transitive
+    - forward-compatible
+    - forward-transitive
+    - full-compatible
+    - full-transitive
+    - reference-integrity
+  rule_scope:
+    - global
+    - group
+    - artifact
 ---
 
 # Registry rules
@@ -33,4 +51,3 @@ The core rule types are:
 Rules can be configured at multiple scopes. Precedence is artifact-specific, then group-specific, then global. A lower scope can override a higher scope by configuring the same rule and setting it to `NONE`.
 
 In the map, rules are the center of the safe-schema-change path: they turn schema evolution from an informal review process into an enforceable gate at content ingestion time.
-

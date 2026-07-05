@@ -28,6 +28,17 @@ related:
   - apicurio-workflow-deploy-registry-operator
   - apicurio-concept-storage-backends
   - apicurio-workflow-run-registry-with-gitops-storage
+decision:
+  deployment_environment:
+    - kubernetes
+    - openshift
+    - production-ha
+  storage:
+    - embedded-h2
+    - postgresql
+    - mysql
+    - kafkasql
+    - kubernetesops
 ---
 
 # ApicurioRegistry3 custom resource
