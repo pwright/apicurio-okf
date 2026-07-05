@@ -77,6 +77,16 @@ globalRules:
 properties: []
 ```
 
+Add the group referenced by the artifact:
+
+```yaml
+# default.registry.yaml
+$type: group-v0
+registryIds: [prod]
+groupId: default
+description: Default registry group
+```
+
 Add an artifact definition and content file:
 
 ```yaml
@@ -110,7 +120,7 @@ versions:
 Commit the files:
 
 ```bash
-git add prod.registry.yaml order.registry.yaml order.avsc
+git add prod.registry.yaml default.registry.yaml order.registry.yaml order.avsc
 git commit -m "Add initial registry artifacts"
 ```
 
